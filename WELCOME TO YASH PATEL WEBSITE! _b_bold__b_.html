@@ -6,6 +6,7 @@
 <body>
 
     <link rel="stylesheet" href="style.css">
+    
      <style type = "text/css"> 
      .style {color: rgb(235, 251, 10); text-align:center} 
      .Style2 {font-family:arial,sans-serif;}
@@ -20,48 +21,67 @@
     </style>
 
 
+<nav class="navbar">
+  <ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#About me">About me</a></li>
+    <li><a href="#Awards/Achievement">Awards/Achievement</a></li>
+    <div class="dropdown">
+      <li><a href="">Links</a></li>
+      <div class="dropdown-content">
+        <a href="https://www.linkedin.com/in/">Linkdin</a>
+        <a href="https://www.torontomu.ca/?gad_source=1&gclid=Cj0KCQjw05i4BhDiARIsAB_2wfBE6hw33U-ayRYItMLKTX4Pf2H31Q4wqgbf82-aDxGIqWlBZlJ8_K8aAt7hEALw_wcB">Ryerson</a> 
+      </div>
+    </div>
+    
+
+    
+    
+
+  </ul>
+  </nav>
+
+  <button id="nameButton">Enter Your Name</button>
+  <p id="Print"></p>
+  <script src="main.js"></script>
+
 <h1>
-    <div class ="style">
+    <div class ="style" id="Home">
+     
     WELCOME TO YASH PATEL WEBSITE!
+
+
+  
+<script>
+  document.getElementById("demo").innerHTML ="Welcome User:"+ person;
+  </script>
+
 </div>
+
 
 </h1>
 
-
-<table style="width:100%">
-   
-    
-    <tr>
-        
-            <td><div class="font"><a href="https://www.linkedin.com/in/">https://www.linkedin.com/in/ypatelrye/</a></div></p></td>
-        
-    
-      
-      <td>Linkdin </td>
-      
-    </tr>
-    <tr>
-      <td><div class="font"><a href="mailto:test@gmail.com">yash2.patel@torontomu.ca</a></div></td>
-      <td>Email</td>
-   
-     
-    </tr>
-  </table>
+<div class="container"></div>
+<img id="image2" img src="./Yash.jpeg" alt="Yash" onclick=displayMessage() class="image">
 
 
 
 
+
+
+<div>
 
 <hr>
 
 <h2>About Me/Education</h2>
+<div id="About me"></div>
 <p>  Hello, my name is Yash Patel, and I'm in Business Technology Mangement in 3rd Year. Business technology management is a program 
     where you learn both <strong> business and IT world </strong>. In this program, we take courses like,<strong> Programming, Data Analytics, IT Infrastructure, Information systems, 
     and system analysis and design </strong>, more technology based heavey. One of the core business classes that is implemented in this program is a lot of  <strong>financial accounting, Finance, 
     and Economics classes </strong>. 
 
     <hr>
-
+  </div>
 </p><h3>Courses</h3>
 <p> One of the courses that I found very useful is  <strong>Data and Information Management </strong>. In this course, we learned about SQL and all about database. I found this 
     class very useful because it taught me about analyazing data, Creating Data, and filtering to find certain key things in the in the database. Having the 
@@ -74,7 +94,8 @@
 
 
 
-<h4>Educational History</h4>
+<h4>Educational History </h4>
+
 <ul> 
     <li>Lester B Pearson Collegiate Institute, Ontario Secondary School Diploma</li>
     <p><strong>Date Attended:</strong> 2018-2022</p>
@@ -91,7 +112,7 @@
 
 
 <h5>Awards/Achievement</h5>
-
+<div id="Awards/Achievement"></div>
     <table style="width:50%">
         <tr>
             <th>Achievement</q></th>
@@ -130,8 +151,30 @@
     <li>Collaborated with university faculty and staff to coordinate TED Rogers events and promote engagement with the local community.</li>
     </div>
 </ol></ul>
+ 
 
 
+
+
+<table style="width:100%">
+   
+    
+    <tr>
+        
+            <td><div class="font"><a href="https://www.linkedin.com/in/">https://www.linkedin.com/in/ypatelrye/</a></div></p></td>
+        
+    
+      
+      <td>Linkdin </td>
+      
+    </tr>
+    <tr>
+      <td><div class="font"><a href="mailto:test@gmail.com">yash2.patel@torontomu.ca</a></div></td>
+      <td>Email</td>
+   
+     
+    </tr>
+  </table>
 
 
 
