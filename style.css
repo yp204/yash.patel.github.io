@@ -1,0 +1,233 @@
+body {color:rgb(0, 0, 0);  background-color: rgb(23, 148, 182);}
+
+
+
+.image{
+    width:500px;
+    height:500px;
+    display:block;
+    margin:auto;
+
+
+
+}
+
+
+.navbar ul{
+    list-style-type:none;
+    background-color:rgb(103, 106, 107);
+    padding:0px;
+    margin:0px;
+    overflow:hidden
+
+
+}
+.navbar a{
+    color:rgb(12, 12, 12);
+    text-decoration:none;
+    padding:25px;
+    display:block;
+    text-align:center;
+    
+
+}
+
+.navbar li{
+    float:left;
+
+
+}
+
+.navbar a:hover{
+    color:#afd620
+}
+
+h1 {background-color:#011047;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px; 
+}
+ 
+
+hr {
+    height: 4px;
+    background-color: rgb(13, 21, 109);
+    border: none;
+}
+
+
+
+h2 {
+    color:#811994; 
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+p{font-family: Arial, sans-serif;
+    font-size:15px;
+    color:#ffffffe9;
+
+
+}
+li {color:#ffffffe9;
+
+
+}
+
+tr{color:#ffffffe9;
+
+
+}
+
+h3{
+    color:#e71212e9; 
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+
+h4 {
+    color:#cbff0d; 
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+ul{font-family: Arial, sans-serif;
+    font-size:15px;
+
+}
+
+
+h5 {
+    color:#01fda9a9; 
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    font-size:15px;
+
+}
+a{color:#380e68a9;
+
+
+}
+
+h6 {
+    color:#05f559; 
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+h7 {
+    color:#0c1a6b; 
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+h8 {
+    color:#e0d803; 
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+.imageIncrease {
+    width: 1000px;
+    height: 1000px;
+    display:block;
+    margin:auto;
+}
+
+
+
+
+
+
+/* Form Section Styling */
+.form-section {
+    width: 50%;
+    margin: 2rem auto;
+    background: #697778;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #9de906;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+form input[type="text"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="reset"] {
+    background: #dc3545;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #73e005;
+    color: #f4f4f9;
+    margin-top: 2rem;
+}
