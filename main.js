@@ -74,7 +74,7 @@ function decreaseText() {
 
 function playPause()
 {
-    
+
     const video = document.getElementById("video1");
     if (video.paused)
         video.play();
@@ -95,6 +95,7 @@ function makeSmall()
     video.width = 320;
     video.height = 100;
 }
+
 
 function makeNormal() 
 {
