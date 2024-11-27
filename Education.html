@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Video</title>
+    <link rel="stylesheet" href="style.css">
+    <body style="background: url(Dark\ Blue\ Gradient\ Background.jpg)"></body>
+   
+</head>
+<body>
+    <header></header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Skills</a></li>
+            <li><a href="About.html">About Me</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Expirence.html">Experience</a></li>
+            <li><a href="Project.html">Projects</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Education.html">Travel/Other</a></li>
+            <li><a href="Seo.html">SEO</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li class="dropdown">
+                <a href="#">Links</a>
+                <div class="dropdown-content">
+                    <a href="https://www.linkedin.com/in/ypatelrye/">LinkedIn</a>
+                    <a href="mailto:yashp0383@gmail.com">Email</a>
+                    <a href="https://www.torontomu.ca/?gad_source=1&gclid=Cj0KCQjw05i4BhDiARIsAB_2wfBE6hw33U-ayRYItMLKTX4Pf2H31Q4wqgbf82-aDxGIqWlBZlJ8_K8aAt7hEALw_wcB">Ryerson</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="inner">
+        <div class="header">
+            <div id="Skills"></div>
+            <h1>Travel</h1>
+        </div>
+        <div class="Contain">
+            <div class="Square">
+                <div class="Skill-title">
+                    <div class="img">
+                        <img id="image1" src="India1.jpg" class="skill-icon" height="400" alt="This place is called Mehrangarth Fort.">
+                        <button onclick="showAltText('image1')">Image Description (Click me)</button>
+                    </div>
+                    <p>Taken on January 10th, 2024, Location: Udaipur, India</p>
+                </div>
+            </div>
+            <div class="Contain">
+                <div class="Skill-title">
+                    <div class="img">
+                        <img id="image2" src="image1.jpg" class="skill-icon" height="400" alt="This is a castle in Udaipur, where the kings ruled this place back in the 1800s">
+                        <button onclick="showAltText('image2')">Image Description (Click me)</button>
+                    </div>
+                    <p>Taken on January 7th, 2024, Location: Jodpur, India</p>
+                </div>
+            </div>
+            <div class="Contain">
+                <div class="Skill-title">
+                    <div class="img">
+                        <img id="image3" src="Sand.jpg" class="skill-icon" height="400" alt="This is the sunset of Jaisalmer, India. This is a very famous sunset spot">
+                        <button onclick="showAltText('image3')">Image Description (Click me)</button>
+                    </div>
+                    <p>Taken on January 14th, 2024, Location: Jaisalmer, India</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Video</h1>
+    <div class="video-container">
+        <video class="video" id="video1" width="500" height="400" controls>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <section class="section1">
+        <button onclick="playPause()">Play/Pause</button>
+        <p><button onclick="makeBig()">Big</button></p>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="storage.js"></script>
+</body>
+
+
+ <!-- Copyright message -->
+ <footer>
+    <p>&copy; All rights reserved Yash.</p>
+  </footer>
+</html>
