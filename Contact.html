@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Patel Website</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body style="background: url(Dark\ Blue\ Gradient\ Background.jpg)"></body>
+<script src="storage.js"></script>
+
+
+
+</head>
+</head>
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html">Skills</a></li>
+    <li><a href="About.html">About Me</a></li>
+    <li><a href="Courses.html">Courses</a></li>
+    <li><a href="Expirence.html">Experience</a></li>
+    <li><a href="Project.html">Projects</a></li>
+    <li><a href="Resume.html">Resume</a></li>
+    <li><a href="Education.html">Travel/Other</a></li>
+    <li><a href="Seo.html">SEO</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+    <li class="dropdown">
+      <a href="#">Links</a>
+      <div class="dropdown-content">
+        <a href="https://www.linkedin.com/in/ypatelrye/">LinkedIn</a>
+        <a href="mailto:yashp0383@gmail.com">Email</a>
+        <a href="https://www.torontomu.ca/?gad_source=1&gclid=Cj0KCQjw05i4BhDiARIsAB_2wfBE6hw33U-ayRYItMLKTX4Pf2H31Q4wqgbf82-aDxGIqWlBZlJ8_K8aAt7hEALw_wcB">Ryerson</a> 
+      </div>
+    </li>
+  </ul>
+</nav>
+
+<!-- Form Section -->
+<section class="form-section">
+    <h1>Contact Us</h1>
+    <div id="Contact Us"></div>
+    <form id="contactForm">
+        <!-- Single Text Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required>
+  
+   
+        
+       
+  
+  
+        <!-- Multiple Text Field -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+  
+        <!-- Radio Buttons -->
+        <label>What is your age range? (Pick one of the following ranges) </label>
+       
+        <label for="contactEmail">0-30</label>
+        <input type="radio" id="ageYoung" name="Age" value="0-30">
+        <label for="contactPhone">30-50</label>
+        <input type="radio" id="ageMiddle" name="Age" value="30-50">
+        <label for="contactPhone">50-100</label>
+        <input type="radio" id="ageOld" name="Age" value="50-100">
+  
+        <!-- Checkboxes -->
+        <label>What do you like about my website? (Multiselect)</label>
+        <label for="interestWeb">Format</label>
+        <input type="checkbox" id="interestFormat" name="interest" value="Format">
+        <label for="interestGraphic">Colour</label>
+        <input type="checkbox" id="interestColour" name="interest" value="Colour">
+        <label for="interestGraphic">Style</label>
+        <input type="checkbox" id="interestStlye" name="interest" value="Style">
+        
+  
+        <!-- Dropdown (Select) -->
+        <label for="siteSeeing">How often do you visit my site? (Drop Select)</label>
+        <select id="siteSeeing" name="SiteSeeing">
+            <option value="Never">Never</option>
+            <option value="Sometimes">Sometimes</option>
+            <option value="All the time">All the time</option>
+        </select>
+  
+        <!-- Submit and Clear Buttons -->
+        <button type="button" onclick="submitForm()">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+  </section>
+  
+  <!-- Copyright message -->
+  <footer>
+    <p>&copy; All rights reserved Yash.</p>
+  </footer>
+  
+  <script src="scripts.js"></script>
+  </body>
+  </html>
