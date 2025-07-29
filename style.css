@@ -255,13 +255,13 @@ span{
 
 @keyframes words {
     0%, 20% {
-        content: " Aspiring Data Analyst";
+        content: " Aspiring Business Analyst";
     }
     21%, 40% {
-        content: "Aspiring Developer";
+        content: "Aspiring IT Analyst";
     }
     41%, 60% {
-        content: "Aspiring Programmer";
+        content: "Aspiring Cybersecurity Analyst";
     }
     61%, 80% {
         content:  "Aspiring Consultant";
