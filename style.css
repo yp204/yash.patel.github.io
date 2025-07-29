@@ -231,7 +231,7 @@ span{
 }
 
 .text-animation span::before{
-    content: "Web Developer";
+    content: "Business Analayst";
     color: var(--main-color);
     animation: words 20s infinite;
 }
