@@ -231,7 +231,7 @@ span{
 }
 
 .text-animation span::before{
-    content: "Business Analayst";
+    content: "Web Developer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -255,13 +255,13 @@ span{
 
 @keyframes words {
     0%, 20% {
-        content: " Aspiring Business Analyst";
+        content: " Aspiring Business Developer";
     }
     21%, 40% {
         content: "Aspiring IT Analyst";
     }
     41%, 60% {
-        content: "Aspiring Cybersecurity Analyst";
+        content: "Aspiring Project Manager";
     }
     61%, 80% {
         content:  "Aspiring Consultant";
@@ -709,3 +709,5 @@ h4{
 p{
     font-size: 12px;
 }
+
+
