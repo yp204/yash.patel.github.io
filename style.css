@@ -231,7 +231,7 @@ span{
 }
 
 .text-animation span::before{
-    content: "Web Developer";
+    content: "Business Developer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -255,7 +255,7 @@ span{
 
 @keyframes words {
     0%, 20% {
-        content: " Aspiring Business Developer";
+        content: "Aspiring Business Developer";
     }
     21%, 40% {
         content: "Aspiring IT Analyst";
