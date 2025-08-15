@@ -48,3 +48,53 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Your message has been successfully sent!");
     });
 });
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const texts = [
+        "Aspiring Project Manager",
+        "Aspiring IT Analyst",
+        "Aspiring Business Analyst"
+    ];
+
+    let count = 0;
+    let index = 0;
+    let currentText = "";
+    let letter = "";
+    const speed = 100; // typing speed
+    const delayBetweenWords = 1500; // pause before deleting
+
+    const textSpan = document.querySelector(".text-animation span");
+
+    function type() {
+        if (index === 0) {
+            currentText = texts[count];
+        }
+
+        letter = currentText.slice(0, ++index);
+        textSpan.textContent = letter;
+
+        if (letter.length === currentText.length) {
+            setTimeout(deleteText, delayBetweenWords);
+        } else {
+            setTimeout(type, speed);
+        }
+    }
+
+    function deleteText() {
+        letter = currentText.slice(0, --index);
+        textSpan.textContent = letter;
+
+        if (letter.length === 0) {
+            count = (count + 1) % texts.length;
+            setTimeout(type, speed);
+        } else {
+            setTimeout(deleteText, speed / 2);
+        }
+    }
+
+    type();
+});
